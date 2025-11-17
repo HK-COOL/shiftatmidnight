@@ -1,0 +1,192 @@
+{
+  "en": [
+    {
+      "version": "v0.4.0",
+      "title": "Game Hub & Legal Pages",
+      "date": "2025-11-17",
+      "added": [
+        "New Game page (/en/game) with a full overview of Shift at Midnight, including story summary, core features, PC requirements and official links (Itch.io, Steam, GitHub mirror).",
+        "Dedicated Game Guide article: \"Shift at Midnight Game Guide: Complete Walkthrough and Survival Tips for Beginners\".",
+        "Dedicated Download Guide article: \"Shift at Midnight Download Guide: How to Install, Launch, and Update the Game\".",
+        "New Privacy Policy (/en/privacy) and Terms of Service (/en/terms) pages so the site no longer 404s from the footer and looks more trustworthy for players and ad networks."
+      ],
+      "improved": [
+        "Updated all \"Play / Start Playing\" buttons to route through the Game page instead of linking directly to the ZIP file, so players can read what they are about to download first.",
+        "Tweaked Open Graph and Twitter meta tags for the Game, Guide and Download pages to look better when shared on social media.",
+        "Adjusted internal link structure so all game-related content is now grouped under a clear \"Game Hub\"."
+      ],
+      "fixed": [
+        "Fixed a bug where some links in the navigation still pointed to old placeholder URLs.",
+        "Cleaned up a couple of typos in earlier article titles and descriptions."
+      ]
+    },
+    {
+      "version": "v0.3.2",
+      "title": "Doppelganger Detection Deep Dive",
+      "date": "2025-11-15",
+      "added": [
+        "New advanced article: \"How to Identify Doppelgangers in Shift at Midnight: Advanced Detection Guide\", focusing on:",
+        "A 3-layer detection flow (papers / person / context)",
+        "Concrete English question templates for players to use in-game",
+        "Different doppelganger archetypes (hesitant, silent, over-confident, overly calm, defensive)",
+        "Simple ASCII \"diagrams\" for positioning, sightlines and safe paths inside the station."
+      ],
+      "improved": [
+        "Linked the new guide from the Game page and from related content cards so it's easier to find for new players.",
+        "Reworked some headings and sub-headings to be closer to the tone of horror content creators instead of sounding like a dry wiki."
+      ],
+      "fixed": [
+        "Fixed inconsistent capitalization of \"Shift at Midnight\" across several English articles.",
+        "Corrected a couple of broken anchor links inside long-form guides."
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "title": "Content Pass for Beginners",
+      "date": "2025-11-12",
+      "added": [
+        "First version of the Beginner Content Pack:",
+        "A long-form article explaining the core loop (interrogation → management → survival).",
+        "A \"first night\" walkthrough to help new players avoid soft-locking themselves with bad decisions.",
+        "A simple \"Common Beginner Mistakes\" list with practical examples."
+      ],
+      "improved": [
+        "Updated article thumbnails and preview texts so readers immediately understand whether a post is about mechanics, downloads, or story.",
+        "Slightly rebalanced heading sizes and spacing on article pages to improve readability on mobile."
+      ],
+      "fixed": [
+        "Fixed a layout issue where long English titles would overlap the breadcrumb on smaller screens.",
+        "Resolved a bug where some older posts didn't correctly respect the locale in their URLs."
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "title": "Localization & Structure",
+      "date": "2025-11-08",
+      "added": [
+        "Multi-language routing via [locale] so English and Chinese content can coexist cleanly under /en/... and /zh/....",
+        "Initial Chinese translations for key pages: Home, Game intro, and several core articles."
+      ],
+      "improved": [
+        "Restructured the content tree into data/md/en and data/md/zh to make it easier to add new posts without breaking anything.",
+        "Refined the breadcrumb component to show localized labels for \"Home\", \"Changelog\", \"Game\", etc."
+      ],
+      "fixed": [
+        "Fixed a bug where switching locale would sometimes drop users back to the homepage instead of the localized version of the current page."
+      ]
+    },
+    {
+      "version": "v0.1.0",
+      "title": "First Public Beta",
+      "date": "2025-11-02",
+      "added": [
+        "Initial public release of shiftatmidnight.com as a small fan-made hub for the game Shift at Midnight.",
+        "Basic homepage with a short game description, a \"Play\" button and a few placeholder sections for future content.",
+        "Basic Changelog page to keep track of what actually changes between versions."
+      ],
+      "improved": [
+        "Early SEO pass: human-readable URLs, sensible page titles, and meta descriptions so search engines don't have to guess."
+      ],
+      "fixed": [],
+      "knownIssues": [
+        "Footer links to Privacy Policy and Terms were still pointing to placeholder routes.",
+        "No proper game guide or download instructions yet — players mostly relied on external posts and store pages."
+      ]
+    }
+  ],
+  "zh": [
+    {
+      "version": "v0.4.0",
+      "title": "游戏页 & 法务页面上线",
+      "date": "2025-11-17",
+      "added": [
+        "上线全新的 游戏详情页（/zh/game），集中介绍 Shift at Midnight 的故事背景、核心玩法、PC 配置需求以及官方链接（Itch.io / Steam / GitHub 镜像下载）。",
+        "新增长文攻略：《Shift at Midnight 游戏指南：新手完整流程与生存技巧》，帮助第一次上夜班的玩家快速入门。",
+        "新增下载教学文章：《Shift at Midnight 下载指南：如何安装、启动与更新游戏》，一步一步教玩家从不同平台获取与更新游戏。",
+        "新增 隐私政策（/zh/privacy）和 使用条款（/zh/terms）页面，页脚不再出现 404，对玩家和广告平台都更友好。"
+      ],
+      "improved": [
+        "所有首页和菜单里的 \"开始游戏 / Play\" 按钮，现在都会先跳转到游戏详情页，而不是直接丢给一个 ZIP 下载链接。",
+        "调整 Game / Guide / Download 等页面的 Open Graph 与 Twitter 标签，在社交媒体分享时展示更清晰的摘要与封面。",
+        "整理站内链接结构，把与游戏相关的内容统一归到\"Game Hub\"，方便后续扩展。"
+      ],
+      "fixed": [
+        "修复部分导航链接仍然指向旧占位路由的问题。",
+        "统一了几篇文章中游戏名称的写法，避免中英文大小写混乱。"
+      ]
+    },
+    {
+      "version": "v0.3.2",
+      "title": "幽灵分身进阶识别指南",
+      "date": "2025-11-15",
+      "added": [
+        "新增进阶向长文：《How to Identify Doppelgangers in Shift at Midnight: Advanced Detection Guide》，重点补充：",
+        "\"证件 – 人 – 场景\"三层检测流程",
+        "可直接照抄使用的英文问话示例",
+        "不同类型 doppelganger 行为特征（迟疑型 / 沉默型 / 过度自信型 / 过度冷静型 / 话痨型 / 防御型）",
+        "通过 ASCII 简易示意图展示柜台视野、站位与在加油站里的安全动线。"
+      ],
+      "improved": [
+        "在游戏详情页和相关内容模块中增加了指向该进阶指南的入口，新玩家可以顺滑从\"了解游戏\"跳到\"深入玩法\"。",
+        "微调部分标题文案，让整体语气更接近恐怖游戏实况主，而不是很干的百科。"
+      ],
+      "fixed": [
+        "修复数篇英文文章中 \"Shift at Midnight\" 大小写不统一的问题。",
+        "修正长文中几处锚点链接失效的情况。"
+      ]
+    },
+    {
+      "version": "v0.3.0",
+      "title": "新手内容整合",
+      "date": "2025-11-12",
+      "added": [
+        "完成首版 新手内容包：",
+        "一篇从 0 讲清楚核心循环（审问 → 经营 → 生存）的玩法介绍；",
+        "一篇 \"第一晚推荐流程\" 教程，尽量避免玩家第一把就把自己玩死；",
+        "一份\"新手常见错误清单\"，配合实际场景说明为什么会翻车。"
+      ],
+      "improved": [
+        "更新部分文章的卡片封面与摘要，让玩家一眼就知道这篇是讲机制、还是下载、还是背景故事。",
+        "调整文章页面的标题层级和行距，改善手机端的阅读体验。"
+      ],
+      "fixed": [
+        "修复英文长标题在小屏幕上与面包屑重叠的问题。",
+        "解决老文章在切换语言时可能跳回首页的 bug。"
+      ]
+    },
+    {
+      "version": "v0.2.0",
+      "title": "多语言与内容结构",
+      "date": "2025-11-08",
+      "added": [
+        "上线 [locale] 多语言路由结构，英文与中文内容现在统一走 /en/... 和 /zh/....",
+        "完成首页、基础游戏介绍与几篇核心文章的第一版中文翻译。"
+      ],
+      "improved": [
+        "重构内容目录结构为 data/md/en 与 data/md/zh，后续增删文章不再影响现有页面。",
+        "更新面包屑组件，根据语言显示对应的 \"首页 / 更新日志 / 游戏\" 文案。"
+      ],
+      "fixed": [
+        "修复切换语言时有概率把用户送回根路径，而不是当前页面对应语言版本的问题。"
+      ]
+    },
+    {
+      "version": "v0.1.0",
+      "title": "网站公开测试版",
+      "date": "2025-11-02",
+      "added": [
+        "shiftatmidnight.com 首次公开上线，作为非官方的 Shift at Midnight 游戏信息与攻略小站。",
+        "搭建基础首页：包含简短游戏介绍、一个\"开始游戏\"按钮，以及若干预留板块。",
+        "建立简易版 Changelog 页面，方便以后真的有东西可以写在这里。"
+      ],
+      "improved": [
+        "做了第一轮 SEO 基础设置：可读的 URL、合理的标题和描述，让搜索引擎不至于完全瞎猜。"
+      ],
+      "fixed": [],
+      "knownIssues": [
+        "页脚中的隐私政策和使用条款仍指向占位链接，点击会 404。",
+        "站内还没有完善的新手攻略和下载说明，玩家主要依赖外部帖子与商店页面了解游戏。"
+      ]
+    }
+  ]
+}

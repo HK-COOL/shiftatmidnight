@@ -1,0 +1,40 @@
+[
+  {
+    "id": "shift-at-midnight-game-guide",
+    "translations": {
+      "zh": {
+        "title": "Shift at Midnight 游戏指南：新手完整流程与生存技巧",
+        "description": "本指南从游戏整体概览、基础操作与界面、第一晚推荐流程、提问识别伪装者的策略、封门与陷阱的使用、新手常见错误以及推荐画面设置等方面，全方位帮助新玩家在 Shift at Midnight 的加油站夜班中活到天亮。",
+        "date": "2025-07-11T00:00:00.000Z",
+        "lastModified": "2025-07-11T00:00:00Z",
+        "path": "data/md/zh/Shift-at-Midnight-Game-Guide.md"
+      },
+      "en": {
+        "title": "Shift at Midnight Game Guide: Complete Walkthrough and Survival Tips for Beginners",
+        "description": "A full beginner-friendly guide to Shift at Midnight, covering game overview, basic controls and UI, a recommended first-night walkthrough, questioning strategies to spot doppelgangers, barricades and traps, common mistakes, and recommended graphics settings to survive the graveyard shift.",
+        "date": "2025-07-11T00:00:00.000Z",
+        "lastModified": "2025-07-11T00:00:00Z",
+        "path": "data/md/en/Shift-at-Midnight-Game-Guide.md"
+      }
+    }
+  },
+  {
+    "id": "shift-at-midnight-download-guide",
+    "translations": {
+      "zh": {
+        "title": "Shift at Midnight 下载指南：如何安装、启动与更新游戏",
+        "description": "本下载指南详细说明 Shift at Midnight 从 Itch.io、Steam 与 GitHub 镜像等渠道的获取方式，给出最低与推荐配置、不同平台的安装步骤、首次启动时应对 Windows 安全提示的方法，以及版本更新与常见问题排查思路。",
+        "date": "2025-07-12T00:00:00.000Z",
+        "lastModified": "2025-07-12T00:00:00Z",
+        "path": "data/md/zh/Shift-at-Midnight-Download-Guide.md"
+      },
+      "en": {
+        "title": "Shift at Midnight Download Guide: How to Install, Launch, and Update the Game",
+        "description": "This download guide explains where to get Shift at Midnight (Itch.io, Steam, and GitHub mirrors), the minimum and recommended PC specs, step-by-step installation for each platform, how to handle Windows security prompts on first launch, how to update to new versions, and how to troubleshoot common issues.",
+        "date": "2025-07-12T00:00:00.000Z",
+        "lastModified": "2025-07-12T00:00:00Z",
+        "path": "data/md/en/Shift-at-Midnight-Download-Guide.md"
+      }
+    }
+  }
+]
