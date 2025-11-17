@@ -54,11 +54,11 @@ export default async function Home() {
   const coverImages = [article1, article2, article3];
   const allPostsData = sortedPosts
     .slice(0, 3) // 最多显示3篇
-    .map((post, index) => ({
+    .map((post: { id: string; title: string; description: string; date: string }, index: number) => ({
       ...post,
       coverImage: coverImages[index] || article1 // 如果没有足够的封面图片，使用第一张
     }))
-    .filter(post => post.id); // 过滤掉不存在的文章
+    .filter((post: { id: string }) => post.id); // 过滤掉不存在的文章
 
   return (
     <>
