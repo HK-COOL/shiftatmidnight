@@ -10,7 +10,7 @@ import GoogleAdsenseScript from "@/components/ads/GoogleAdsenseScript";
 import { ThemeProvider } from "next-themes"
 import { DM_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
-
+import Script from 'next/script'
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { generateMetaTags } from '@/components/MetaTags'
@@ -102,6 +102,11 @@ export default async function RootLayout({
             <PlausibleAnalyticsScript />
           </ThemeProvider>
         </NextIntlClientProvider>
+        <Script 
+          id="adsterra-social-bar" 
+          src="//pl28093041.effectivegatecpm.com/dd/8a/be/dd8abe8ca55a8a438316aa7e4d0e918f.js"
+          strategy="afterInteractive" 
+        />
       </body>
     </html>
   );
