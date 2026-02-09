@@ -5,7 +5,6 @@ import Image from "next/image";
 import IconImage from "../../public/favicon.svg";
 import {useTranslations} from 'next-intl';
 import Link from 'next/link';
-import { useTranslations } from 'next-intl';
 
 export function Footer() {
   const t = useTranslations('footer');
