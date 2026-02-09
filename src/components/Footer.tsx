@@ -60,6 +60,25 @@ export function Footer() {
                   {t('termsOfService')}
                 </Link>
               </li>
+              <li>
+      <a
+        href="https://fivenightsatepsteins.org/"
+        className="text-base"
+        target="_blank"
+        rel="noopener"
+      >
+        five nights at epsteins
+      </a>
+    </li>
+              <a
+        href="https://courseoftemptation.org/"
+        className="text-base"
+        target="_blank"
+        rel="noopener"
+      >
+        Course of Temptation
+      </a>
+    </li>
             </ul>
           </div>
           <div>
