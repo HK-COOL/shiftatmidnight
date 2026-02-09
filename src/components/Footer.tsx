@@ -4,6 +4,8 @@ import React from 'react'; // 确保导入 React
 import Image from "next/image";
 import IconImage from "../../public/favicon.svg";
 import {useTranslations} from 'next-intl';
+import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 export function Footer() {
   const t = useTranslations('footer');
@@ -61,24 +63,26 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-      <a
-        href="https://fivenightsatepsteins.org/"
-        className="text-base"
-        target="_blank"
-        rel="noopener"
-      >
-        five nights at epsteins
-      </a>
-    </li>
-              <a
-        href="https://courseoftemptation.org/"
-        className="text-base"
-        target="_blank"
-        rel="noopener"
-      >
-        Course of Temptation
-      </a>
-    </li>
+    <a
+      href="https://fivenightsatepsteins.org/"
+      className="text-base"
+      target="_blank"
+      rel="noopener"
+    >
+      five nights at epsteins
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="https://courseoftemptation.org/"
+      className="text-base"
+      target="_blank"
+      rel="noopener"
+    >
+      Course of Temptation
+    </a>
+  </li>
             </ul>
           </div>
           <div>
